@@ -7,7 +7,7 @@ public class ConexionMySQL
 {
     private static ConexionMySQL instance; //sibgleton
     private Connection cnn;
-    private String driver = "com.mysql.jdbc.Driver "; //"org.mariadb.jdbc.Driver  ó com.mysql.jdbc.Driver ";
+    private String driver = "com.mysql.cj.jdbc.Driver"; //"org.mariadb.jdbc.Driver  ó com.mysql.jdbc.Driver ";
     private String user = "root";
     private String pss = "";
     private String nom_bd = "bd_tallerjavaweb";
